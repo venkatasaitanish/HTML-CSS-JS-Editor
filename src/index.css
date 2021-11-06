@@ -3,7 +3,8 @@ body{
 }
 
 .top-pane{
-  background-color: hsl(225, 6%, 25%);
+  /* background-color: hsl(225, 6%, 25%); */
+  background-color: rgb(62, 62, 64);
 }
 
 .pane{
@@ -17,7 +18,8 @@ body{
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-  background-color: hsl(225, 6%, 25%);
+  /* background-color: hsl(225, 6%, 25%); */
+  background-color: rgb(62, 62, 64);
 }
 
 .editor-container.collapsed{
@@ -40,8 +42,10 @@ body{
 .editor-title{
   display: flex;
   justify-content: space-between;
-  background-color: hsl(225, 6%, 13%);
+  /* background-color: hsl(225, 6%, 13%); */
+  background-color: rgb(20, 20, 20);
   color: white;
+  font-size: 1.2rem;
   padding: 0.5rem 0.5rem 0.5rem 1rem ;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
